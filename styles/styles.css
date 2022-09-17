@@ -1,0 +1,55 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: 0%; 
+}
+
+.padre-flex{
+    display: flex;
+}
+
+.principal-title{
+    font-size: 50px;
+    margin: 5px;
+}
+
+.principal-subtitle{
+    font-size: 40px;
+    margin: 5px;
+}
+
+.image-continer{
+    width: 90%;
+    height: 70%;
+}
+
+.box__1{
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.header__logo{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.header__navegador{
+    display: inline; 
+}
+
+.header__navegador__link{
+    color:red;
+    font-size: 25px;
+    margin: 5%;
+}
+
+.icon__logo{
+    width: 100px;
+    height: 100px;
+}
