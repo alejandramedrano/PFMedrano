@@ -4,10 +4,6 @@
    box-sizing: 0%; 
 }
 
-.padre-flex{
-    display: flex;
-}
-
 .principal-title{
     font-size: 50px;
     margin: 5px;
@@ -23,30 +19,15 @@
     height: 70%;
 }
 
-.box__1{
-    background-color: crimson;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-    height: 250px;
-    width: 250px;
-
-}
-
 .header__logo{
     display: inline-block;
     width: 20%;
     height:  60%;
 }
 
-.header__navegador{
-    display: inline; 
-}
-
-.header__navegador__link{
-    color:red;
-    font-size: 25px;
-    margin: 5%;
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon__logo{
@@ -57,3 +38,7 @@
 .carousel__titlefont{
     font-size: large ;
 }
+
+body {
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+  }
