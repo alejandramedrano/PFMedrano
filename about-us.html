@@ -5,31 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap-5.2.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title> ABOUT US </title>
 </head>
 
 <body>
     <header>
-        <img class="header__logo" src="./assets/src/logo-espaciado-blanco.jpg" alt="">
-        <h1>Tus Redes</h1>
-        <h2>Marketing Digital</h2>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about-us.html">About us</a>
-            <a href="./services.html">Services</a>
-            <a href="./works.html">Works</a>
-            <a href="./joinus!.html">Join Us!</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3"> <img class="img-fluid" src="./assets/src/logo-espaciado-blanco.jpg"
+                        alt="Logo pequeño">
+                </div>
+                <div class="col-md-9">
+                    <nav>
+                        <a href="./index.html"><button type="button" class="btn btn-light">Home</button></a>
+                        <a href="./about-us.html"><button type="button" class="btn btn-light"> About us</button> </a>
+                        <a href="./services.html"><button type="button" class="btn btn-light"> Services</button> </a>
+                        <a href="./works.html"><button type="button" class="btn btn-light"> Works</button></a>
+                        <a href="./joinus!.html"><button type="button" class="btn btn-light">Join Us! </button></a>
+                        <a href="./contact.html"><button type="button" class="btn btn-light"> Contact</button></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <h1> About us</h1>
+        </div>
     </header>
 
     <hr>
     <main>
         <section>
             <article>
-                <h2 class="principal-title">About us</h2>
-                <img src="./assets/src/about-us.jpg" alt="">
+            <div class="container-md">
+            
+            <div class="row">
+            <div class="fade-in-image">
+                <div class="d-flex justify-content-center"> <div class="col-md-9"><img class="img-fluid" img src="./assets/src/about-us.jpg" alt="Manos que se tocan">
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
                 <p>Somos un equipo de ...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id rutrum felis,
                     sed accumsan sem. Ut ac lorem nibh. Maecenas in orci aliquam, consequat ipsum quis, auctor risus.
                     Nullam venenatis, metus eu eleifend placerat, orci enim sodales nisi, non tincidunt elit diam eu
