@@ -10,7 +10,8 @@
     <meta name="keywords"
         content="REDES SOCIALES, RRSS, COMMUNITY MANAGER, COMMUNITY MANAGEMENT, CONTENIDO, DIGITAL CONTENT, FOTOGRAFIA, VIDEO, EMPRENDIMIENTOS, CULTURA, GASTRONOMIA, FACEBOOK, INSTAGRAM, ANUNCIOS, LUJÁN, LUJAN">
     <link rel="shortcut icon" href="./assets/src/favicon.png">
-    <link rel="stylesheet" href="./css/prueba.css">
+    <link rel="stylesheet" href="./styles/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title> SERVICES </title>
 </head>
 
@@ -29,7 +30,7 @@
                         <a href="./about-us.html"><button type="button" class="btn btn-light"> About us</button> </a>
                         <a href="./services.html"><button type="button" class="btn btn-light"> Services</button> </a>
                         <a href="./works.html"><button type="button" class="btn btn-light"> Works</button></a>
-                        <a href="./joinus!.html"><button type="button" class="btn btn-light">Join Us! </button></a>
+                        <a href="./joinus.html"><button type="button" class="btn btn-light">Join Us! </button></a>
                         <a href="./contact.html"><button type="button" class="btn btn-light"> Contact</button></a>
                     </nav>
                 </div>
@@ -41,59 +42,85 @@
     </header>
     <hr>
     <main>
-        <section>
-            <h2> COMMUNITY MANAGEMENT</h2>
-            <img src="./assets/src/Facebook-logo2.jpg" alt="facebook logo">
-            <img src="./assets/src/google-logo.jpg" alt="google logo">
-            <img src="assets/src/twitter-logo.jpg" alt="twitter logo">
-            <img src="./assets/src/youtube-logo.jpg" alt="youtube logo">
-            <img src="./assets/src/Instagram logo.jpg" alt="instagram logo">
-            <article>
-                <p>
-                    Nos dedicamos a la creación y gestión de redes sociales.
-                    De qué forma?
-                    Creamos las publicaciones que necesite nuestro cliente, potenciamos las interacciones con los
-                    seguidores y propiciamos el engagement de las redes por medio del establecimiento de relaciones
-                    estables y duraderas entre el cliente y la comunidad.
-                    El ingenio y la creatividad son indispensables para la creación de contenido, pero es muy dificil
-                    utilizar estas aptitudes sin un rumbo fijo. Es por ello que creemos indispensable poder combinar y
-                    ordenar las ideas con el marketing para potenciar tu marca.
-                    Conoces qué funciones cumple un Community Manager?
-                    Un profesional de las redes sociales debe programar y monitorear contenido segun la identidad del
-                    cliente. Debe seguir las publicaciones para medir los resultados que genera y cómo impacta en la
-                    comunidad. Debe conocer el publico objetivo para trabajar el feedback. Debe propiciar el networking
-                    con otras compañías para expandir y darse a conocer entre nuevas personas detras de la pantalla.
-                    Debe elaborar estrategias comunicacionales con objetivos claros y en momentos determinados para cada
-                    cliente.
-                    Realizamos la tarea de comunicar con una excelente redacción, empatía, moderación, dedicación y
-                    sobre todo, mucha pasión!
-                </p>
-            </article>
-        </section>
-        <section>
-            <h2> DIGITAL CONTENT </h2>
-            <article>
-                <p>
-                    Analizamos las opciones mas acertadas para el producto o servicio que se desea mostrar. Contamos con
-                    fotografía y videografía profesional, como también contenido interactivo que marca tendencia en el
-                    mundo.
-                </p>
-            </article>
-        </section>
-        <section>
-            <h2>PROJECT MANAGEMENT</h2>
-            <article>
-                <p>
-                    A través del Project Management llevamos a cabo la gestión de los proyectos. Su principal objetivo
-                    es el de mejorar los procesos y su entorno para lograr el alcance de los objetivos planteados. Aqui
-                    se trabaja en el planeamiento, la organización, la estrategia y el control de los recursos.
-                    Gracias al Project Management podemos lograr la eficiencia en la creación de un proyecto y su
-                    implementación, se obtienen nuevas perspectivas del mismo, se flexibilizan los diseños segun las
-                    necesidades y la dinámica del mundo y se aumenta la ventaja competitiva.
-                    Organizate, animate a contratar el servicio de Project Management!
-                </p>
-            </article>
-        </section>
+        <div class="flex__center">
+            <section>
+                <h2> COMMUNITY MANAGEMENT</h2>
+                <div class="box__logo">
+                    <img src="./assets/src/facebook-png.png" alt="facebook logo">
+                    <img src="./assets/src/ig-png.png" alt="instagram logo">
+                    <img src="./assets/src/google-png.png" alt="google logo">
+                </div>
+                <div class="box__logo">
+                    <img src="assets/src/twitter-png.png" alt="twitter logo">
+                    <img src="./assets/src/youtube-png.png" alt="youtube logo">
+                </div>
+                <article>
+                    <p>
+                        Nos dedicamos a la creación y gestión de redes sociales.
+                        De qué forma?
+                        Creamos las publicaciones que necesite nuestro cliente, potenciamos las interacciones con los
+                        seguidores y propiciamos el engagement de las redes por medio del establecimiento de relaciones
+                        estables y duraderas entre el cliente y la comunidad.
+                        El ingenio y la creatividad son indispensables para la creación de contenido, pero es muy
+                        dificil
+                        utilizar estas aptitudes sin un rumbo fijo. Es por ello que creemos indispensable poder combinar
+                        y
+                        ordenar las ideas con el marketing para potenciar tu marca.
+                        Conoces qué funciones cumple un Community Manager?
+                        Un profesional de las redes sociales debe programar y monitorear contenido segun la identidad
+                        del
+                        cliente. Debe seguir las publicaciones para medir los resultados que genera y cómo impacta en la
+                        comunidad. Debe conocer el publico objetivo para trabajar el feedback. Debe propiciar el
+                        networking
+                        con otras compañías para expandir y darse a conocer entre nuevas personas detras de la pantalla.
+                        Debe elaborar estrategias comunicacionales con objetivos claros y en momentos determinados para
+                        cada
+                        cliente.
+                        Realizamos la tarea de comunicar con una excelente redacción, empatía, moderación, dedicación y
+                        sobre todo, mucha pasión!
+                    </p>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <div class="container">
+                        <div class="article__description">
+                            <div class="article__description--text">
+                                <h2> DIGITAL CONTENT </h2>
+                                <p>
+                                    Analizamos las opciones mas acertadas para el producto o servicio que se desea mostrar. Contamos
+                                    con
+                                    fotografía y videografía profesional, como también contenido interactivo que marca tendencia en
+                                    el
+                                    mundo.
+                                </p>
+                            </div>
+                            <div class="article__description--imagen">
+                                <img src="./assets/src/Belita-logo.jpg" alt="some image beauty">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+
+            <section>
+                <h2>PROJECT MANAGEMENT</h2>
+                <article>
+                    <p>
+                        A través del Project Management llevamos a cabo la gestión de los proyectos. Su principal
+                        objetivo
+                        es el de mejorar los procesos y su entorno para lograr el alcance de los objetivos planteados.
+                        Aqui
+                        se trabaja en el planeamiento, la organización, la estrategia y el control de los recursos.
+                        Gracias al Project Management podemos lograr la eficiencia en la creación de un proyecto y su
+                        implementación, se obtienen nuevas perspectivas del mismo, se flexibilizan los diseños segun las
+                        necesidades y la dinámica del mundo y se aumenta la ventaja competitiva.
+                        Organizate, animate a contratar el servicio de Project Management!
+                    </p>
+                </article>
+            </section>
+        </div>
         <hr>
     </main>
     <footer>
@@ -102,6 +129,8 @@
             Buenos Aires, Argentina -
             Desarrollado con ♥</div>
     </footer>
+    <script src="./styles/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"> </script>
+
 </body>
 
 </html>

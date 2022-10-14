@@ -1,4 +1,10 @@
+// Ejecutar git bash here desde -> OneDrive/Escritorio/CODERHOUSE/PreEntrega3-Medrano/pagina-web
+// Ejecutar los cambios en la terminal. Mi ruta -> sass scss/main.scss styles/styles.css
+
 @import "./utils/variables";
-@import "./layout/header";
+@import "./utils/labels";
 
+@import "./base/reset";
 
+@import "./layout/footer";
+@import "./pages/services"
