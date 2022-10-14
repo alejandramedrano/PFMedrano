@@ -10,64 +10,73 @@
     <meta name="keywords"
         content="REDES SOCIALES, RRSS, COMMUNITY MANAGER, COMMUNITY MANAGEMENT, CONTENIDO, DIGITAL CONTENT, FOTOGRAFIA, VIDEO, EMPRENDIMIENTOS, CULTURA, GASTRONOMIA, FACEBOOK, INSTAGRAM, ANUNCIOS, LUJÁN, LUJAN">
     <link rel="shortcut icon" href="./assets/src/favicon.png">
-    <!-- importamos css -->
+    <link rel="stylesheet" href="./styles/bootstrap-5.2.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title> Contactate </title>
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7 align-self-start">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/src/Logo transparente sin texto.png" alt="Logo" width="50" height="50">
-                    </a>
-                </div>
-                <div class="col-md-5 justify-content-end d-flex">
-                    <nav>
-                        <a href="./index.html"><button type="button" class="btn btn-light">Home</button></a>
-                        <a href="./about-us.html"><button type="button" class="btn btn-light"> About us</button> </a>
-                        <a href="./services.html"><button type="button" class="btn btn-light"> Services</button> </a>
-                        <a href="./works.html"><button type="button" class="btn btn-light"> Works</button></a>
-                        <a href="./joinus.html"><button type="button" class="btn btn-light">Join Us! </button></a>
-                        <a href="./contact.html"><button type="button" class="btn btn-light"> Contact</button></a>
-                    </nav>
+    <div class="container">
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-7 align-self-start">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/src/Logo transparente sin texto.png" alt="Logo" width="50" height="50">
+                        </a>
+                    </div>
+                    <div class="col-md-5 justify-content-end d-flex">
+                        <nav>
+                            <a href="./index.html"><button type="button" class="btn btn-light">Home</button></a>
+                            <a href="./about-us.html"><button type="button" class="btn btn-light"> About us</button>
+                            </a>
+                            <a href="./services.html"><button type="button" class="btn btn-light"> Services</button>
+                            </a>
+                            <a href="./works.html"><button type="button" class="btn btn-light"> Works</button></a>
+                            <a href="./joinus.html"><button type="button" class="btn btn-light">Join Us! </button></a>
+                            <a href="./contact.html"><button type="button" class="btn btn-light"> Contact</button></a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <h1> Contact</h1>
-        </div>
-    </header>
-    <hr>
-    <main>
-        <section>
-            <img class="image-continer" src="./assets/src/contact.jpg" alt="contact">
-            <a href="https://www.facebook.com/tusredeslujan">
-                <img class="icon__logo" src="./assets/src/Facebook-logo2.jpg" alt="FACEBOOK">
-            </a>
-            <a href="https://www.instagram.com/tusredeslujan">
-                <img class="icon__logo" src="./assets/src/Instagram logo.jpg" alt="Instagram">
-            </a>
-            <form>
-                <input type="text" placeholder="Nombre" />
-                <input type="text" placeholder="Mail" />
-                <input type="text" placeholder="Teléfono" />
-                <input textarea placeholder="Escribí tu mensaje" />
-                <button type="submit"><a href="mensaje-enviado.html"> <a href="./mensajeenviado.html">Enviar
-                </button></a>
+            <div>
+                <h1> Contact</h1>
+            </div>
+        </header>
+        <hr>
+        <main>
+            <div>
+                <section>
+                    <div class="contact__layout">
+                        <img src="./assets/src/contact.jpg" alt="contact">
+                        <div class="box__icon_redes">
+                            <a href="https://www.facebook.com/tusredeslujan">
+                                <img class="icon__logo" src="./assets/src/facebook-png.png" alt="FACEBOOK">
+                            </a>
+                            <a href="https://www.instagram.com/tusredeslujan">
+                                <img class="icon__logo" src="./assets/src/ig-png.png" alt="Instagram">
+                            </a>
+                        </div>
+                        <form>
+                            <input type="text" placeholder="Nombre" />
+                            <input type="text" placeholder="Mail" />
+                            <input type="text" placeholder="Teléfono" />
+                            <input textarea placeholder="Escribí tu mensaje" class=" text_piba" />
+                            <button type="submit"><a href="mensaje-enviado.html"> <a href="./mensajeenviado.html">Enviar
+                            </button></a>
+                        </form>
+                    </div>
 
-
-            </form>
-        </section>
-    </main>
-    <hr>
-    <footer>
-        © 2022 Tus Redes -
-        Buenos Aires, Argentina -
-        Desarrollado con ♥
-    </footer>
+                </section>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            © 2022 Tus Redes -
+            Buenos Aires, Argentina -
+            Desarrollado con ♥
+        </footer>
+    </div>
 </body>
 
 </html>

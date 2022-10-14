@@ -1,17 +1,26 @@
-.contact__layout{
+.flex__center{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 5%;
+    text-align: center;
+
+}
+
+.flex__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
     text-align: center;
 }
 
-.box__icon_redes{
+.box__icon{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    padding-top: 5%;
+
     img{
         height: 50%;
         width: 20%;
