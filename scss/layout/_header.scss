@@ -1,6 +1,71 @@
-// @import "./utils/variables";
-.background-color {
-    color:rgb(197, 35, 62);
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0.9rem;
+
+    @media (max-width: $screen-tablet) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 70%;
+    }
+
+    @media (max-width: 375px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 80%;
+    }
+
+    li {
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+        margin: 1%;
+        width: 120px;
+
+        a {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(5, 0, 0);
+            font-size: larger;
+            font-weight: bold;
+
+            &:hover {
+                color: rgb(240, 104, 106);
+                text-decoration: none;
+            }
+
+            @media screen and (max-width: $screen-tablet) {
+                color: rgb(198, 188, 188);
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+
+        }
+    }
+}
+.page-selected{
+    color: rgb(231, 146, 51);
+}
+
+.container__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
 }

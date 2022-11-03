@@ -17,52 +17,57 @@
 
 <body>
     <header>
-        <div class=".background-color">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-7 align-self-start">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/src/Logo transparente sin texto.png" alt="Logo" width="50" height="50">
-                    </a>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 justify-content-center">
+                        <div class="container__logo">
+                            <a class="navbar-brand" href="./index.html">
+                                <img src="./assets/src/Logo transparente sin texto.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 justify-content-end d-flex">
+                        <nav>
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./about-us.html"> About us</a></li>
+                                <li><a href="./services.html"> Services </a></li>
+                                <li><a href="./works.html"> Works</a></li>
+                                <li><a href="./joinus.html" class="page-selected"> Join Us!</a></li>
+                                <li><a href="./contact.html">Contact </a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="col-md-5 justify-content-end d-flex">
-                    <nav>
-                        <a href="./index.html"><button type="button" class="btn btn-light">Home</button></a>
-                        <a href="./about-us.html"><button type="button" class="btn btn-light"> About us</button> </a>
-                        <a href="./services.html"><button type="button" class="btn btn-light"> Services</button> </a>
-                        <a href="./works.html"><button type="button" class="btn btn-light"> Works</button></a>
-                        <a href="./joinus.html"><button type="button" class="btn btn-light">Join Us! </button></a>
-                        <a href="./contact.html"><button type="button" class="btn btn-light"> Contact</button></a>
-                    </nav>
+                <div class="flex__column">
+                    <h1>Join us</h1>
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <h1> Tus Redes</h1>
-        </div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <h2>Marketing Digital</h2>
-        </div>
-        </div>
-    </div>
-        </header>
+        <hr>
+    </header>
     <main>
         <section>
-            <h2 class="alita"> JOIN US!</h2>
-            <img src="./assets/src/joinus.jpeg" alt="joinus">
-            <h3>SUMATE A NUESTRO EQUIPO!
-                ENVIANOS TU CV O PORTFOLIO A</h3>
-            <h2>TUSREDESMARKETINGDIGITAL@GMAIL.COM</h2>
-
+            <div class="flex__center">
+                <img src="./assets/src/joinus.jpeg" alt="joinus">
+                <div class="container">
+                    <hr>
+                    <h3>SUMATE A NUESTRO EQUIPO!
+                        ENVIANOS TU CV O PORTFOLIO A</h3>
+                    <h2>TUSREDESMARKETINGDIGITAL@GMAIL.COM</h2>
+                </div>
+            </div>
         </section>
     </main>
     <hr>
     <footer>
-        © 2022 Tus Redes -
-        Buenos Aires, Argentina -
-        Desarrollado con ♥
+        <div class="container-xl d-flex justify-content-center">
+            © 2022 Tus Redes -
+            Buenos Aires, Argentina -
+            Desarrollado con ♥</div>
     </footer>
+    <hr>
     <script src="./styles/bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"> </script>
 </body>
 

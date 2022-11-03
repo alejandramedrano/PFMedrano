@@ -1,0 +1,29 @@
+.cliente-tarjeta{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 2%;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+  
+}
+
+.cliente__display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    padding: 1rem;
+    text-align: center;
+
+    @media (max-width: 860px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 1rem;
+    }
+}
